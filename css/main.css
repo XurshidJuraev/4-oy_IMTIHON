@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.user__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.user__item {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 2px  #21fafa;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 15px;
+}
+.clone{
+    width: 350px;
+}
+
+.user__name, .user__surname {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.user-name {
+    margin-bottom:15px;
+    font-weight: bold;
+}
+
+.user-surname::before{
+    content: "Email: ";
+    font-weight: bold;
+    color: black;
+}
+
+.user-surname {
+    margin-top: -13px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.user__city::before {
+    content: "Country: ";
+    font-weight: bold;
+}
+.user__company::before {
+    content: "Country: ";
+    font-weight: bold;
+}
+
+.norm::before {
+    content: "Post: ";
+    font-weight: bold;
+}
+
+.user__web::before {
+    content: "Website: ";
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.comment-heading::before {
+    content: "Title: ";
+    font-weight: bold;
+}
+
+.comment-mail::before {
+    content: "Email: ";
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.comment-heading {
+    font-size: 19px;
+}
+
+.comment-text::before {
+    content: "Comment: ";
+    font-weight: bold;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__text {
+    text-align: center;
+}
+
+.margin {
+    margin-left: -30px;
+}
+
+.alif {
+    margin-left: -30px;
+}
+
+.maxel {
+    width: 2px;
+    height: 2053px;
+    background-color: #21fafa;
+    opacity: 1;
+}
+.level{
+    text-align: left;
+    font-weight: bold;
+}
